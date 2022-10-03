@@ -145,3 +145,44 @@
 //   console.log(html);
 // }
 
+// const names = ["shaun", "mario", "luigi"]
+// let i = 0;
+
+// while(i < 5){
+//   console.log("in loop:", i);
+//   i++;
+// }
+
+// while(i < names.length){
+//   console.log(names[i]);
+//   i++;
+// }
+
+// let i = 1;
+
+// do{
+//   console.log("val of i is: ", i);
+//   i++;
+// } while(i < 5);
+
+// const age = 25;
+
+// if(age > 20){
+//   console.log("you are over 20 years old");
+// }
+
+// const ninjas = ["shaun", "ryu", "chun-li", "yoshi"];
+
+// if(ninjas.length > 4){
+//   console.log("That's a lot of ninjas");
+// }
+
+const password = "p@sswo";
+
+if(password.length >= 12 && password.includes("@")){
+  console.log("That password is mighty strong");
+} else if(password.length >= 8 || password.includes("@") && password.length > 5){
+  console.log("That password is strong enough!");
+} else {
+  console.log("That is a weak password!");
+}
