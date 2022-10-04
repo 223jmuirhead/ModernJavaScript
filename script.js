@@ -265,8 +265,33 @@
 
 // speak();
 
-function speak(){
-  console.log(`good day ${name}`);
-}
+// function speak(name = "luigi", age = 999999){
+//   console.log(`Good day ${name} you are ${age} years old`);
+// }
 
-speak("Mario");
+
+// function calcArea(radius){
+//   let area = 3.14 * radius**2;
+//   return area;
+// }
+
+// let circle = calcArea(23);
+// console.log(`The area is ${circle} meters`);
+
+// function calcVol(area){
+  
+// }
+
+//arrow functions
+
+// calcArea = (radius) => 3.14 * radius**2;
+
+
+// let dog = calcArea(12);
+// console.log(dog);
+
+// greet = () => "Hello, world";
+
+// let a = greet();
+// console.log(a);
+
