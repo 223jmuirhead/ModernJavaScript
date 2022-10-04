@@ -177,12 +177,96 @@
 //   console.log("That's a lot of ninjas");
 // }
 
-const password = "p@sswo";
+// const password = "p@sswo";
 
-if(password.length >= 12 && password.includes("@")){
-  console.log("That password is mighty strong");
-} else if(password.length >= 8 || password.includes("@") && password.length > 5){
-  console.log("That password is strong enough!");
-} else {
-  console.log("That is a weak password!");
+// if(password.length >= 12 && password.includes("@")){
+//   console.log("That password is mighty strong");
+// } else if(password.length >= 8 || password.includes("@") && password.length > 5){
+//   console.log("That password is strong enough!");
+// } else {
+//   console.log("That is a weak password!");
+// }
+
+// let user = false;
+
+// if(!user){
+//   console.log("You must be logged in to continue");
+// }
+
+// console.log(!true);
+// console.log(!false);
+
+// const score = [50, 25, 0, 30, 100, 20, 10];
+
+// for(let i = 0; i < score.length; i++){
+
+//   if(score[i] === 0){
+//     continue;
+//   }
+  
+//   console.log("your score: ", score[i]);
+
+//   if(score[i] === 100){
+//     console.log("Congrats, you got the top score!");
+//     break;
+//   }
+// }
+
+// const grade = "A";
+
+// switch(grade){
+//   case "A":
+//     console.log("Woohoo! Good job! You got an A!")
+//     break;
+//   case "B":
+//     console.log("Good job! You got a B!")
+//     break;
+//   case "C":
+//     console.log("You got a C.")
+//     break;
+//   case "D":
+//     console.log("Oof, you got a D.")
+//     break;
+//   case "E":
+//     console.log("E?")
+//     break;
+//   default:
+//     console.log("What? How?")
+//     break;
+// }
+
+// let age = 30;
+
+// let age = 50;
+
+// if(true){
+//   let age = 40;
+//   let name = "shaun";
+//   console.log("Inside fist code block: ", age, name);
+
+//   if(true){
+//     console.log("Inside 2nd code block: ", age);
+//   }
+// }
+
+// console.log("Outside code block: ", age, name);
+
+// function greet(){
+//   console.log("Hello there.");
+// }
+
+// const speak = function(){
+//   console.log("Good day.");
+// };
+
+// // greet();
+// // greet();
+// // greet();
+
+// speak();
+
+function speak(){
+  console.log(`good day ${name}`);
 }
+
+speak("Mario");
