@@ -295,3 +295,106 @@
 // let a = greet();
 // console.log(a);
 
+// const name = "shaun";
+
+// const greet = () => "hello";
+
+// let resultOne = greet();
+// console.log(resultOne);
+
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+// const myFunc = (callbackFunc) => {
+//   let value = 50;
+//   callbackFunc(value);
+// }
+
+// myFunc(function(value){
+
+//   console.log(value);
+// })
+
+
+// const logPerson = (person, index) => {
+//   console.log(`${index} - hello ${person}`);
+// }
+
+// people.forEach(logPerson);
+
+// const ul = document.querySelector('.people');
+
+// const people = ["mario", "luigi", "ryu", "shaun", "chun-li"];
+
+// let html = "";
+
+// people.forEach(function(person){
+//   html += `<li style="color: purple">${person}</li>`;
+// });
+
+// console.log(html);
+
+// ul.innerHTML = html;
+
+
+
+
+// const blogs = [
+//   { title: "Why mac and cheese rules", likes: 30},
+//   { title: "10 things to make with marmite", likes: -50}
+// ];
+
+// console.log(blogs);
+
+
+// let user = {
+//   name: "crystal",
+//   age: 30,
+//   email: "crystal@thenetninja.co.uk",
+//   location: "berlin",
+//   blogs:   { title: "Why mac and cheese rules", likes: 30},
+//   { title: "10 things to make with marmite", likes: -50}
+// ];
+//   login(){
+//     console.log("The user has logged in");
+//   },
+//   logout(){
+//     console.log("The user has logged out");
+//   }, 
+//   logBlogs(){
+//     // console.log(this.blogs);
+//     console.log("This user has written the following blogs: ");
+//     this.blogs.forEach(blog => {
+//       console.log(blog.title, blog.likes);
+//     })
+//   }
+// };
+
+// user.logBlogs();
+
+// console.log(user);
+// console.log(user.name);
+
+// user.age = 35;
+// console.log(user.age);
+
+// console.log(user.name);
+
+console.log(Math);
+console.log(Math.PI);
+console.log(Math.E);
+
+const area = 4.1
+
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
+
+//random numbers
+
+const random = Math.random();
+
+console.log(random);
+
+console.log(Math.round(random * 100));
