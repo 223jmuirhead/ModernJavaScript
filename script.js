@@ -2,9 +2,9 @@
 
 //let result = email.replace("m", "w");
 
-//let result = email.replace("n", "w");
+// let result = email.replace("n", "w");
 
-//console.log(result);
+// console.log(result);
 
 //let radius = 10;
 //const pi = 3.14
@@ -380,21 +380,51 @@
 
 // console.log(user.name);
 
-console.log(Math);
-console.log(Math.PI);
-console.log(Math.E);
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
 
-const area = 4.1
+// const area = 4.1
 
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+// console.log(Math.ceil(area));
+// console.log(Math.trunc(area));
 
 //random numbers
 
-const random = Math.random();
+// const random = Math.random();
 
-console.log(random);
+// console.log(random);
 
-console.log(Math.round(random * 100));
+// console.log(Math.round(random * 100));
+
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
+
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+// scoreOne=100;
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+// const userOne = {name: "ryu", age: 30 };
+// const userTwo = userOne;
+
+// console.log(userOne, userTwo);
+
+// userOne.age = 40;
+// console.log(userOne, userTwo);
+
+// const paras = document.querySelector("p");
+
+// console.log(paras);
+
+// const title = document.getElementById("page-title");
+// console.log(title);
+
+// const error = document.getElementsByClassName("error");
+// console.log(error);
+
+const para = document.querySelector("p");
+
+console.log(para.innerText);
